@@ -43,7 +43,7 @@ public class MySqlDao {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(
-					"jdbc:mysql://127.0.0.1:3306/db_test",
+					"jdbc:Oracle://127.0.0.1:3306/db_test",
 					"root","123456");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
